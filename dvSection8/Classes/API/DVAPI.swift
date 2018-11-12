@@ -7,7 +7,7 @@
 //
 
 import Foundation
-import ReachabilitySwift
+import Reachability
 
 // MARK: - HTTPMethod
 public enum HTTPMethod: String {

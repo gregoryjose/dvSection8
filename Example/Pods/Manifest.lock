@@ -1,22 +1,29 @@
 PODS:
   - dvSection8 (1.0.0):
-    - HTTPStatusCodes (~> 3.1.2)
-    - ReachabilitySwift (~> 3)
-  - HTTPStatusCodes (3.1.2)
-  - ReachabilitySwift (3)
+    - HTTPStatusCodes (~> 3.2.0)
+    - ReachabilitySwift (~> 4.3.0)
+  - HTTPStatusCodes (3.2.0)
+  - ReachabilitySwift (4.3.0)
 
 DEPENDENCIES:
   - dvSection8 (from `../`)
+  - HTTPStatusCodes
+  - ReachabilitySwift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - HTTPStatusCodes
+    - ReachabilitySwift
 
 EXTERNAL SOURCES:
   dvSection8:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  dvSection8: a47c34591993acb85d6599829efa4ee3a97f41f6
-  HTTPStatusCodes: 88155ba36826366a898a7b4f34d311f49083d546
-  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  dvSection8: 6347818b94a48acc0ed11a91370f610b32cdde25
+  HTTPStatusCodes: 69f50d229c4b5d6dcb48fad9c86e32ded975bcd3
+  ReachabilitySwift: 408477d1b6ed9779dba301953171e017c31241f3
 
-PODFILE CHECKSUM: efb78a425ad56422c3104860b6ae29e89fe46fa4
+PODFILE CHECKSUM: 702e4aded7b1a67a3125f8fb5132862fe35d449b
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

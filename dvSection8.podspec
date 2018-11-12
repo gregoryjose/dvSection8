@@ -38,6 +38,6 @@ s.source_files = 'dvSection8/Classes/**/*'
 
 # s.public_header_files = 'Pod/Classes/**/*.h'
 s.frameworks = 'UIKit'
-s.dependency 'ReachabilitySwift', '~> 3'
-s.dependency 'HTTPStatusCodes', '~> 3.1.2'
+s.dependency 'ReachabilitySwift', '~> 4.3.0'
+s.dependency 'HTTPStatusCodes', '~> 3.2.0'
 end
